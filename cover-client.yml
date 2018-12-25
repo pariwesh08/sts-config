@@ -1,0 +1,17 @@
+cover:
+  client:
+    coverServiceLogicalName: "COVER-SERVICE"
+    coverTypesEndpoint: "covers"
+    random-faults: true
+    failsafe:
+      cover-types: "No Cover"
+
+management:
+  security:
+    enabled: false
+
+
+logging:
+  level:
+    io:
+pivotalservices: DEBUG
