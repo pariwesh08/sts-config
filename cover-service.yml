@@ -1,0 +1,23 @@
+cover:
+  service:
+    cover-types: "No Cover, Auto Cover, Home Cover, Holiday Cover, Pet Cover, Duvet Cover"
+    random-delay: false
+
+endpoints:
+  mappings:
+    sensitive: false
+  beans:
+    sensitive: false
+  configprops:
+    sensitive: false
+  env:
+    sensitive: false
+
+management:
+  security:
+    enabled: false
+
+logging:
+  level:
+    io:
+pivotalservices: DEBUG
